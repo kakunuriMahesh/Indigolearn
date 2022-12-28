@@ -1,0 +1,55 @@
+*{
+  font-family:Arial, Helvetica, sans-serif  
+}
+.App-header{
+    height: 10vh;
+    background: rgba(41, 20, 70, 0.938);
+}
+.logo-name{
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.opptios{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-self: center;
+}
+.opp{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.log-button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgba(41, 20, 70, 0.938);
+    background-color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile{
+    margin-right: 6px;
+}
